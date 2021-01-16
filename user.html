@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find people on gitHub!</title>
+    <link rel="stylesheet" href="./user.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="header">
+        <div class="input">
+            <input type="text" placeholder="Search by Username..." value="">
+        </div>
+    </div>
+    <div class="notFound displayNone" id="notFound">
+        <p>User Not Found</p>
+    </div>
+    <div class="body">
+        <div class="details">
+            <div class="user">
+                <img clas=userInfo src="" alt="userImage" id="userImage">
+                
+                <div class="userInfo">
+                 <span class="userInfoId" id="name">raj</span>
+                 <span class="userInfoId" id="userName">soni</span>
+                 
+                </div>
+                
+            </div>
+            <div class="bio">
+               <div>
+                   <p id="bio"></p>
+               </div>
+                <div class="bioDetails">
+                    <span id='gps'>☥ :<span></span></span>
+                    <span id="following">Following:<span></span></span>
+                    <span id="followers">Followers:<span></span></span>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="repos-box">
+            <p>Popular Repositories</p>
+            <div class="repo-grid">
+             
+            </div>
+            <div class='seeAll'>
+               
+            </div>
+            <div class="activities">
+                <p>Activities</p>
+                <div class="activ">
+                    <img src="https://github.githubassets.com/images/modules/profile/profile-joined-github-dark.svg" alt="image">
+                    <span class="joined">Joined on <br><span class='date'></span></span>
+                    <br><span class="lastUpdated">lastUpdated on <br> <span  class='date'></span></span>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <script src='./user.js'></script>
+</body>
+</html>
